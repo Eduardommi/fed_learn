@@ -56,6 +56,8 @@ cookiecutter==1.7.3
     # via kedro
 coverage[toml]==6.3.2
     # via pytest-cov
+cycler==0.11.0
+    # via matplotlib
 debugpy==1.6.0
     # via ipykernel
 decorator==5.1.1
@@ -72,6 +74,8 @@ fastjsonschema==2.15.3
     # via nbformat
 flake8==3.9.2
     # via -r /home/eduardo/Documents/tcc_kedro/fed_learn/src/requirements.txt
+fonttools==4.33.2
+    # via matplotlib
 fsspec==2022.1.0
     # via kedro
 future==0.18.2
@@ -181,12 +185,16 @@ kedro==0.18.0
     #   kedro-telemetry
 kedro-telemetry==0.2.0
     # via -r /home/eduardo/Documents/tcc_kedro/fed_learn/src/requirements.txt
+kiwisolver==1.4.2
+    # via matplotlib
 lightgbm==3.3.2
     # via -r /home/eduardo/Documents/tcc_kedro/fed_learn/src/requirements.txt
 markupsafe==2.1.1
     # via
     #   jinja2
     #   nbconvert
+matplotlib==3.5.1
+    # via -r /home/eduardo/Documents/tcc_kedro/fed_learn/src/requirements.txt
 matplotlib-inline==0.1.3
     # via
     #   ipykernel
@@ -235,6 +243,7 @@ numpy==1.22.3
     # via
     #   hyperopt
     #   lightgbm
+    #   matplotlib
     #   pandas
     #   scikit-learn
     #   scipy
@@ -244,6 +253,7 @@ packaging==21.3
     #   jupyter-server
     #   jupyterlab
     #   jupyterlab-server
+    #   matplotlib
     #   nbconvert
     #   pytest
     #   qtpy
@@ -261,6 +271,8 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
+pillow==9.1.0
+    # via matplotlib
 pip-tools==6.6.0
     # via kedro
 platformdirs==2.5.2
@@ -302,7 +314,9 @@ pygments==2.11.2
     #   nbconvert
     #   qtconsole
 pyparsing==3.0.8
-    # via packaging
+    # via
+    #   matplotlib
+    #   packaging
 pyrsistent==0.18.1
     # via jsonschema
 pytest==6.2.5
@@ -319,6 +333,7 @@ python-dateutil==2.8.2
     #   arrow
     #   jupyter-client
     #   kaggle
+    #   matplotlib
     #   pandas
 python-json-logger==2.0.2
     # via kedro

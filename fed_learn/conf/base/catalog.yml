@@ -6,15 +6,23 @@
 test_identity:
     type: pandas.CSVDataSet
     filepath: data/01_raw/test_identity.csv
+    load_args:
+        index_col: 'TransactionID'
 
 test_transaction:
     type: pandas.CSVDataSet
     filepath: data/01_raw/test_transaction.csv
+    load_args:
+        index_col: 'TransactionID'
 
 train_identity:
     type: pandas.CSVDataSet
     filepath: data/01_raw/train_identity.csv
+    load_args:
+        index_col: 'TransactionID'
 
 train_transaction:
     type: pandas.CSVDataSet
     filepath: data/01_raw/train_transaction.csv
+    load_args:
+        index_col: 'TransactionID'
